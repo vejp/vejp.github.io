@@ -1,0 +1,44 @@
+$header-height: 55px;
+$footer-height: 55px;
+
+$padding: 10px;
+$padding-2x: $padding*2;
+
+* { margin: 0; padding: 0; box-sizing: border-box}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    min-height: 100%;
+    margin-bottom: -$footer-height;
+
+    &:after {
+        content: "";
+        display: block;
+        clear: both;
+        height: $footer-height;
+    }
+
+    & .header {
+        height: $header-height;
+
+        & h1 {
+            padding: $padding;
+            text-align: center;
+            white-space: pre-wrap;
+        }
+    }
+
+    & .main {
+        padding: $padding-2x;
+        white-space: pre-wrap;
+    }
+}
+
+.footer {
+    height: $footer-height;
+    padding: $padding-2x;
+    text-align: right;
+}
