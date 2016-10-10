@@ -1,34 +1,35 @@
 {
-    "name": "vejp-nation",
-    "version": "0.0.1",
-    "description": "Vejp Nation team official site",
-    "scripts": {
-        "dev": "cross-env NODE_ENV=development webpack",
-        "build": "cross-env NODE_ENV=production webpack",
-        "build-watch": "cross-env NODE_ENV=production webpack --watch"
-    },
-    "author": "vejp",
-    "license": "ISC",
-    "dependencies": {
-        "jquery": "3.1.0",
-        "lodash": "4.14.2",
-        "lorem-ipsum": "1.0.3"
-    },
-        "devDependencies": {
-        "babel-core": "6.13.2",
-        "babel-loader": "6.2.4",
-        "babel-preset-es2015": "6.13.2",
-        "babel-preset-stage-0": "6.5.0",
-        "cross-env": "2.0.0",
-        "css-loader": "0.23.1",
-        "node-sass": "3.8.0",
-        "path": "0.12.7",
-        "sass-loader": "4.0.0",
-        "style-loader": "0.13.1",
-        "webpack": "1.13.1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/vejp/vejp.git"
-    }
+  "name": "vejp-nation",
+  "version": "0.0.1",
+  "description": "Vejp Nation team official site",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack",
+    "build": "cross-env NODE_ENV=production webpack",
+    "build-watch": "cross-env NODE_ENV=production webpack --watch"
+  },
+  "author": "vejp",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "3.1.0",
+    "lodash": "4.14.2",
+    "lorem-ipsum": "1.0.3"
+  },
+  "devDependencies": {
+    "babel-core": "6.13.2",
+    "babel-loader": "6.2.4",
+    "babel-preset-es2015": "6.13.2",
+    "babel-preset-stage-0": "6.5.0",
+    "cross-env": "2.0.0",
+    "css-loader": "0.23.1",
+    "node-sass": "3.8.0",
+    "path": "0.12.7",
+    "sass-loader": "4.0.0",
+    "style-loader": "0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "1.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vejp/vejp.git"
+  }
 }

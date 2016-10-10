@@ -9,7 +9,7 @@ var config = {
     entry: {
         app: ['./app/index.js']
     },
-    output: { path: path.join(__dirname, 'bundle'), filename: 'index.js' },
+    output: { path: path.join(__dirname, 'bundle'), filename: 'index.js', publicPath: './bundle/'},
     module: {
         loaders: [
             {
@@ -21,6 +21,10 @@ var config = {
             {
                 test: /\.scss$/,
                 loaders: ["style", "css", "sass"]
+            },
+            {
+              test: /\.jpe?g$|\.gif$|\.png$/i,
+              loader: "url-loader?limit=100000&name=images/[name].[ext]"
             }
         ]
     },
