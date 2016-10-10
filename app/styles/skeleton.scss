@@ -22,13 +22,20 @@ html, body {
     }
 
     & .header {
-        height: $header-height;
-        // background: url('./img/vejp.jpg');
+        background: url('./img/smoke.jpeg');
+        background-size: 100% auto;
+        height: 34.899vw; // (height of pic / width pf pc) * 100;
+        position: relative;
 
         & h1 {
-            padding: $padding;
             text-align: center;
             white-space: pre-wrap;
+            color: white;
+            font-size: 3.5em;
+            width: 100%;
+
+            position: absolute;
+            top: 5.5vw;
         }
     }
 
