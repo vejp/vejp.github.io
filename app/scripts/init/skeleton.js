@@ -17,7 +17,7 @@ export default function () {
     );
 
     let footer = $(`
-        <footer class = 'footer'>footer</footer>`
+        <footer class = 'footer'></footer>`
     );
 
     body.append(container, footer);
